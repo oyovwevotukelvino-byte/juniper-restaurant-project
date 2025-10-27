@@ -250,6 +250,7 @@ nav ul a {
 .contentE .containerE {
    background-color:rgb(8, 89, 93) ;
    display: flex;
+   padding-top: 30px;
 }
 .contentE .containerE img{
    padding: 90px;
@@ -275,6 +276,9 @@ nav ul a {
 }
 .contentE .containerE .containerf p{
    color:rgb(207, 191, 191) ;
+   text-align: justify;
+   padding: 10px;
+   
 }
 .d span a{
    display: flex;
@@ -292,28 +296,32 @@ nav ul a {
    height: 610px;
    border-radius: 10px;
 }
-/* .largeimg img{
-   width: 100%;
-   height: 100%;
-   object-fit: contain;
-} */
+
 .contentE{
    background-color:rgb(8, 89, 93) ;
-   height: 600px;
+   height: 700px;
+   
 }
 .G{
    color:rgb(147, 144, 144)  ;
    font-weight:10PX;
    font-size: 20PX;
    padding: 40px;
+   text-align: center;
+}
+.G p a{
+   color:rgb(207, 191, 191) ;
+   text-decoration: none;
+  
 }
 .G button{
    display: block;
    justify-self: center;
-   padding: 30px;
+   padding: 20px;
    border: rgb(147, 144, 144) solid;
    border-radius: 20px;
    text-transform: uppercase;
    color: rgb(110, 108, 108);
    background-color: rgb(8, 89, 93);
 }
+
